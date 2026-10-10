@@ -1,0 +1,74 @@
+{
+  "rom": {
+    "path": "/Users/mrkeelan/Documents/ChatGPT/Game Boy/Chromatic Setup Check/Water Sort/build/water-sort.gbc",
+    "sizeBytes": 131072,
+    "sha256": "6febf40f4ffd448d412924c3dda902827d0755b00f702b0097fac769cc6d6b95",
+    "title": "WATERSORT",
+    "colorMode": "gbc-only",
+    "colorFlag": 192,
+    "cartridgeType": 30,
+    "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+    "mapper": "MBC5",
+    "romSizeCode": 2,
+    "declaredRomSizeBytes": 131072,
+    "ramSizeCode": 3,
+    "declaredRamSizeBytes": 32768,
+    "nintendoLogoValid": true,
+    "headerChecksum": 165,
+    "computedHeaderChecksum": 165,
+    "headerChecksumValid": true,
+    "valid": true
+  },
+  "checks": [
+    {
+      "level": 1,
+      "moves": 6,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 2,
+      "moves": 4,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 3,
+      "moves": 7,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 4,
+      "moves": 11,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 5,
+      "moves": 11,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 6,
+      "moves": 15,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 7,
+      "moves": 13,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    },
+    {
+      "level": 8,
+      "moves": 17,
+      "sceneConfigurationVerified": true,
+      "passed": true
+    }
+  ],
+  "controlChecks": "undo,cancel,empty source,full target,restart passed",
+  "editorVerified": "GB Studio 4.3.2 displays eight native scenes and Configure Water Sort Puzzle fields"
+}

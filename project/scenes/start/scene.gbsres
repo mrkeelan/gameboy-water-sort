@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+  "_index": 0,
+  "type": "watersort",
+  "name": "01 - Moonlit Sky",
+  "symbol": "scene_start",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "199d3f57-2514-5950-8fa1-b59be4e4554f",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "9233a164-9124-50e2-9207-28a9cb4db899",
+    "3b4a8995-5d73-58b3-9b68-7436ab6f5934",
+    "75284e4e-13bf-5a6c-8237-fa79edf12733",
+    "08f6d115-8742-5fff-bec0-3cdd7e3da515",
+    "32769231-31a4-5d1c-b6e3-1fbdf0a63b13",
+    "72465872-999e-51a8-83e6-5fac1ca61883",
+    "2509935b-099d-5276-84d6-ae9798e7c43e",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "water-sort-config-1",
+      "command": "EVENT_WATER_SORT_CONFIGURE",
+      "args": {
+        "level": 1,
+        "count": 4,
+        "b0l0": 2,
+        "b0l1": 2,
+        "b0l2": 1,
+        "b0l3": 2,
+        "b1l0": 2,
+        "b1l1": 1,
+        "b1l2": 1,
+        "b1l3": 1,
+        "b2l0": 0,
+        "b2l1": 0,
+        "b2l2": 0,
+        "b2l3": 0,
+        "b3l0": 0,
+        "b3l1": 0,
+        "b3l2": 0,
+        "b3l3": 0,
+        "b4l0": 0,
+        "b4l1": 0,
+        "b4l2": 0,
+        "b4l3": 0,
+        "b5l0": 0,
+        "b5l1": 0,
+        "b5l2": 0,
+        "b5l3": 0
+      },
+      "children": {
+        "script": [
+          {
+            "id": "water-sort-next-1",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1a62bdc6-5292-52a8-92ef-8cfa3a3f422a",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}
