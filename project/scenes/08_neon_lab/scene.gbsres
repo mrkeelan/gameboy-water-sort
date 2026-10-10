@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "eb08c62b-cfdf-53d3-85d6-73eaa6566449",
+  "_index": 7,
+  "type": "watersort",
+  "name": "08 - Neon Lab",
+  "symbol": "scene_level_8",
+  "x": 720,
+  "y": 240,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1a025e48-d5c7-5972-8aae-0802028516aa",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "47ad8e9e-afcc-566b-b372-0262da943873",
+    "3b4a8995-5d73-58b3-9b68-7436ab6f5934",
+    "75284e4e-13bf-5a6c-8237-fa79edf12733",
+    "08f6d115-8742-5fff-bec0-3cdd7e3da515",
+    "32769231-31a4-5d1c-b6e3-1fbdf0a63b13",
+    "72465872-999e-51a8-83e6-5fac1ca61883",
+    "2509935b-099d-5276-84d6-ae9798e7c43e",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "water-sort-config-8",
+      "command": "EVENT_WATER_SORT_CONFIGURE",
+      "args": {
+        "level": 8,
+        "count": 6,
+        "b0l0": 1,
+        "b0l1": 4,
+        "b0l2": 1,
+        "b0l3": 2,
+        "b1l0": 4,
+        "b1l1": 1,
+        "b1l2": 4,
+        "b1l3": 2,
+        "b2l0": 4,
+        "b2l1": 2,
+        "b2l2": 3,
+        "b2l3": 3,
+        "b3l0": 2,
+        "b3l1": 3,
+        "b3l2": 3,
+        "b3l3": 1,
+        "b4l0": 0,
+        "b4l1": 0,
+        "b4l2": 0,
+        "b4l3": 0,
+        "b5l0": 0,
+        "b5l1": 0,
+        "b5l2": 0,
+        "b5l3": 0
+      },
+      "children": {
+        "script": [
+          {
+            "id": "water-sort-next-8",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

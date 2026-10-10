@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "cb64b1ed-ae31-5bc0-a80d-a3698afa0345",
+  "_index": 6,
+  "type": "watersort",
+  "name": "07 - Crystal Cave",
+  "symbol": "scene_level_7",
+  "x": 480,
+  "y": 240,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "2d6f4231-53e3-5b89-bc85-01438debdaf1",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "449bb8c3-cc51-512d-970c-8eefd2cb0871",
+    "3b4a8995-5d73-58b3-9b68-7436ab6f5934",
+    "75284e4e-13bf-5a6c-8237-fa79edf12733",
+    "08f6d115-8742-5fff-bec0-3cdd7e3da515",
+    "32769231-31a4-5d1c-b6e3-1fbdf0a63b13",
+    "72465872-999e-51a8-83e6-5fac1ca61883",
+    "2509935b-099d-5276-84d6-ae9798e7c43e",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "water-sort-config-7",
+      "command": "EVENT_WATER_SORT_CONFIGURE",
+      "args": {
+        "level": 7,
+        "count": 6,
+        "b0l0": 1,
+        "b0l1": 4,
+        "b0l2": 1,
+        "b0l3": 1,
+        "b1l0": 2,
+        "b1l1": 2,
+        "b1l2": 2,
+        "b1l3": 1,
+        "b2l0": 2,
+        "b2l1": 4,
+        "b2l2": 3,
+        "b2l3": 4,
+        "b3l0": 3,
+        "b3l1": 4,
+        "b3l2": 3,
+        "b3l3": 3,
+        "b4l0": 0,
+        "b4l1": 0,
+        "b4l2": 0,
+        "b4l3": 0,
+        "b5l0": 0,
+        "b5l1": 0,
+        "b5l2": 0,
+        "b5l3": 0
+      },
+      "children": {
+        "script": [
+          {
+            "id": "water-sort-next-7",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "eb08c62b-cfdf-53d3-85d6-73eaa6566449",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

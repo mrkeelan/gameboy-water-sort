@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "9ed11cfd-31e8-5d14-b2ee-f92211bc88e4",
+  "_index": 3,
+  "type": "watersort",
+  "name": "04 - Coral Tide",
+  "symbol": "scene_level_4",
+  "x": 720,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "9f4db162-8e80-571c-a842-c495db59d30d",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "3ffc485b-efb2-5d49-bb3b-29bd297cc58c",
+    "3b4a8995-5d73-58b3-9b68-7436ab6f5934",
+    "75284e4e-13bf-5a6c-8237-fa79edf12733",
+    "08f6d115-8742-5fff-bec0-3cdd7e3da515",
+    "32769231-31a4-5d1c-b6e3-1fbdf0a63b13",
+    "72465872-999e-51a8-83e6-5fac1ca61883",
+    "2509935b-099d-5276-84d6-ae9798e7c43e",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "water-sort-config-4",
+      "command": "EVENT_WATER_SORT_CONFIGURE",
+      "args": {
+        "level": 4,
+        "count": 5,
+        "b0l0": 2,
+        "b0l1": 1,
+        "b0l2": 2,
+        "b0l3": 3,
+        "b1l0": 3,
+        "b1l1": 3,
+        "b1l2": 3,
+        "b1l3": 1,
+        "b2l0": 2,
+        "b2l1": 1,
+        "b2l2": 2,
+        "b2l3": 1,
+        "b3l0": 0,
+        "b3l1": 0,
+        "b3l2": 0,
+        "b3l3": 0,
+        "b4l0": 0,
+        "b4l1": 0,
+        "b4l2": 0,
+        "b4l3": 0,
+        "b5l0": 0,
+        "b5l1": 0,
+        "b5l2": 0,
+        "b5l3": 0
+      },
+      "children": {
+        "script": [
+          {
+            "id": "water-sort-next-4",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7f7a37dc-2534-5c0e-a295-40a3a67b9992",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "builder": "gb-studio-cli",
+  "sourceRevision": "d093a96dc84fd86f01143bb72c823c5ef4838f7c9718053973bfd1e8530a4e18",
+  "indexPath": "index.html",
+  "romPath": "rom/water-sort.gbc",
+  "files": [
+    {
+      "path": "css/style.css",
+      "sha256": "5a1d25ef322248b938a0b69a586ac742ae454d921af257579c4e04a90891f62d",
+      "sizeBytes": 6607
+    },
+    {
+      "path": "gbstudio.json",
+      "sha256": "f7b7e601f29c65e4d582a217ff4f83c72ae55e355aaf8afe08c5a9b930f037cc",
+      "sizeBytes": 555
+    },
+    {
+      "path": "index.html",
+      "sha256": "42ad5653d1865c5576e256c47f9b1405d4ef958d9c8e6a87d64f99da31a37d30",
+      "sizeBytes": 1165
+    },
+    {
+      "path": "js/README.md",
+      "sha256": "99eb792898b7fecb5fd15f4b2fb36398cc181b0c97ada65d415914cbfd683e5e",
+      "sizeBytes": 1222
+    },
+    {
+      "path": "js/binjgb.js",
+      "sha256": "0d8d628de318d0867f223797e16e8d598760ccf7f2c5a23aad12d4e46bc18cac",
+      "sizeBytes": 13922
+    },
+    {
+      "path": "js/binjgb.wasm",
+      "sha256": "69aa17be45fec5fde585af4f39ed850b5d64107ec094a6482f316fef2fe7c945",
+      "sizeBytes": 98840
+    },
+    {
+      "path": "js/debugger.js",
+      "sha256": "c6b1b6bfa0ff19e07b498a1e9723fb8e71e30220d57f11a575b10605cc8f3a12",
+      "sizeBytes": 18195
+    },
+    {
+      "path": "js/script.js",
+      "sha256": "b6e02a156d6f3e72090063118c611617413827cd0fd437a474c441bf65416650",
+      "sizeBytes": 39668
+    },
+    {
+      "path": "rom/water-sort.gbc",
+      "sha256": "a67cdaf3f5dfc172b60bab17d7bd28ccd7e3aef46616d4624475036eca6c2e91",
+      "sizeBytes": 131072
+    }
+  ],
+  "signature": "b147e81143512308eb687da1c3fad1fab6359456b94e05086b2b25b999eb823b"
+}
